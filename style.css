@@ -1,5 +1,6 @@
 body{
     background-color: hsl(222, 26%, 31%);
+    font-weight: 700;
 }
 
 .container{
@@ -10,4 +11,56 @@ body{
     text-align: center;
     justify-content: center;
 }
+
+.keypad{
+    background-color: hsl(223, 31%, 20%);
+    padding: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.screen{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: hsl(224, 36%, 15%);
+    padding: 10px;
+    margin: 8px;
+}
+
+.transparent-textbox {
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 300px;
+  }
+
+  .calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: -8px -8px 15px hsl(30, 25%, 89%), 5px 5px -15px hsl(30, 25%, 89%);
+    font-size: 20px;
+    color: hsl(225, 21%, 49%);
+    cursor: pointer;
+    margin: 5px;
+}
+
+.bottom input{
+    width: 120px;
+} 
 
