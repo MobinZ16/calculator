@@ -1,0 +1,101 @@
+body{
+    background-color: hsl(0, 0%, 90%);
+    font-weight: 700;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(0, 0%, 90%);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.keypad{
+    background-color: hsl(0, 5%, 81%);
+    padding: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.screen{
+    border-radius: 5px;
+    text-align: right;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: hsl(0, 0%, 93%);
+    padding: 10px;
+    margin: 8px;
+}
+
+.transparent-textbox {
+    background-color: transparent;
+    border-color: transparent;
+    color: hsl(60, 10%, 19%);
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 300px;
+  }
+
+  .calculator form input{
+    border: 0;
+    outline: 0;
+    width: 68px;
+    height: 40px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: -8px -8px 15px hsl(30, 25%, 89%), 5px 5px -15px hsl(30, 25%, 89%);
+    font-size: 20px;
+    color: hsl(60, 10%, 19%);
+    cursor: pointer;
+    margin: 5px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+}
+
+.calculator form .key input{
+    width: 150px;
+}
+
+input[value="="]{
+    background-color: hsl(25, 98%, 40%);
+    color: white !important; 
+}
+
+input[value="RESET"]{
+    background-color: hsl(185, 42%, 37%);
+    color: white !important;
+}
+
+input[value="DEL"]{
+    background-color: hsl(185, 42%, 37%);
+    color: white !important;
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 8px 0;
+}
+
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 35px;
+    box-shadow: none;
+    background-color: hsl(0, 0%, 93%);
+    color: hsl(60, 10%, 19%);
+
+}
+
